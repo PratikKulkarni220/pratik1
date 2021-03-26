@@ -1,0 +1,97 @@
+body{
+    background-size:cover;
+
+}
+
+.head_div{
+        width: 100%;
+        height: fit-content;
+}
+
+p{
+  font-size: 20px; 
+  background-color: darkgrey;
+  width: 100%;
+  align-items: center;
+  height:42px;
+}
+
+.volume_div{
+    margin-top: 100px;
+}
+
+.volume{
+    float: left;
+    border-radius: 100px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+ 
+}
+
+.speed{
+    float:right;
+    border-radius: 100px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+.speed_text{
+    font-size: 20px;
+    width:100px;
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.volume_text{
+    font-size: 20px;
+    width:100px;
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.play_button{
+    margin-top: 20px;
+    font-size: 26px;
+    width:200px;
+    background-color: darkblue;
+    font-weight: bolder;
+    font-family: fantasy;
+    border-radius: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: gold;
+}
+
+canvas{
+    border-radius: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: gold;
+
+}
+
+.play_button:hover{
+    font-size: 32px;
+    background-color: darkcyan;
+    border-radius: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: gold;
+}
+
+.song_button{
+    margin-top: 20px;
+    font-size: 23px;
+    width:380px;
+    background-color: darkblue;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: gold;
+}
+
